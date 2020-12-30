@@ -1,0 +1,29 @@
+#1.  Whats the capital of France?
+SELECT capital
+  FROM world
+ WHERE name = 'France'
+ #PARIS
+
+ #2.  What's the capital of Italy?
+ SELECT capital
+  FROM world
+ WHERE name = 'Italy'
+ #ROME 
+
+ #3.  What's the capital of Germany?
+ SELECT capital
+  FROM world
+ WHERE name = 'Germany'
+ #BONN
+
+ #4.  What's the population of the US?
+ SELECT population
+  FROM world
+ WHERE name = 'united states'
+ #329583916
+
+ #5.  What's the population of France?
+ SELECT population
+  FROM world
+ WHERE name = 'france'
+ #67076000
